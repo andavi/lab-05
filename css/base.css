@@ -1,9 +1,15 @@
+html {
+  height: 100%;
+}
+
 body {
   max-width: 480px;
+  max-height: 767px;
+  height: 100%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
+  grid-template-rows: 75fr 150fr 125fr 125fr 250fr 250fr 80fr;
 }
 
 header, aside, section, article, footer {
@@ -16,6 +22,8 @@ header, aside, section, article, footer {
 @media(min-width: 768px) {
   body {
     max-width: 960px;
+    max-height: 768px;
+    grid-template-columns: 200fr 190fr 190fr 190fr 190fr;
+    grid-template-rows: 100fr 200fr 250fr 150fr;
   }
-  grid-template-columns: 
 }

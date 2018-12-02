@@ -3,5 +3,14 @@ header, aside, section, footer{
 }
 
 @media(min-width: 768px) {
-  
+  header {
+    grid-column: span 5;
+  }
+  aside {
+    grid-column: span 1;
+    grid-row: span 3;
+  }
+  footer {
+    grid-column: span 4;
+  }
 }
