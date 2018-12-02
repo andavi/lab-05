@@ -1,13 +1,21 @@
-header, aside, section, article, footer {
-  border: 1px solid black;
-  text-align: center;
+body {
   max-width: 480px;
   margin: 0 auto;
-  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
+}
+
+header, aside, section, article, footer {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media(min-width: 768px) {
-  header, aside, section, article, footer {
+  body {
     max-width: 960px;
   }
+  grid-template-columns: 
 }
