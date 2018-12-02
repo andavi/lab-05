@@ -1,3 +1,4 @@
+/* Mobile */
 #a {
   background-color: aliceblue;
 }
@@ -34,7 +35,8 @@
   background-color: burlywood;
 }
 
-@media(min-width: 768px) {
+/* Tablet */
+@media(min-width: 460px) {
   #a {
     background-color: cadetblue;
   }
@@ -69,5 +71,44 @@
   
   #i {
     background-color: darkseagreen;
+  }
+}
+
+/* Desktop */
+@media(min-width: 768px) {
+  #a {
+    background-color: darkturquoise
+  }
+  
+  #b {
+    background-color: darkviolet
+  }
+  
+  #c {
+    background-color: deeppink;
+  }
+  
+  #d {
+    background-color: deepskyblue;
+  }
+  
+  #e {
+    background-color: dodgerblue;
+  }
+  
+  #f {
+    background-color: firebrick;
+  }
+  
+  #g {
+    background-color: floralwhite;
+  }
+  
+  #h {
+    background-color: forestgreen;
+  }
+  
+  #i {
+    background-color: fuchsia;
   }
 }
