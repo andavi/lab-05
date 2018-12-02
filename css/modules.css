@@ -1,38 +1,38 @@
 /* Mobile */
 #a {
-  background-color: aliceblue;
+  background-color: darkturquoise
 }
 
 #b {
-  background-color: antiquewhite;
+  background-color: darkviolet
 }
 
 #c {
-  background-color: aqua;
+  background-color: deeppink;
 }
 
 #d {
-  background-color: aquamarine;
+  background-color: deepskyblue;
 }
 
 #e {
-  background-color: azure;
+  background-color: dodgerblue;
 }
 
 #f {
-  background-color: beige;
+  background-color: firebrick;
 }
 
 #g {
-  background-color: bisque;
+  background-color: floralwhite;
 }
 
 #h {
-  background-color: blanchedalmond;
+  background-color: forestgreen;
 }
 
 #i {
-  background-color: burlywood;
+  background-color: fuchsia;
 }
 
 /* Tablet */
@@ -77,38 +77,38 @@
 /* Desktop */
 @media(min-width: 768px) {
   #a {
-    background-color: darkturquoise
+    background-color: aliceblue;
   }
   
   #b {
-    background-color: darkviolet
+    background-color: antiquewhite;
   }
   
   #c {
-    background-color: deeppink;
+    background-color: aqua;
   }
   
   #d {
-    background-color: deepskyblue;
+    background-color: aquamarine;
   }
   
   #e {
-    background-color: dodgerblue;
+    background-color: azure;
   }
   
   #f {
-    background-color: firebrick;
+    background-color: beige;
   }
   
   #g {
-    background-color: floralwhite;
+    background-color: bisque;
   }
   
   #h {
-    background-color: forestgreen;
+    background-color: blanchedalmond;
   }
   
   #i {
-    background-color: fuchsia;
+    background-color: burlywood;
   }
 }
